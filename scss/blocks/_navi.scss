@@ -1,0 +1,29 @@
+.navi {
+    margin-top: 150px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        width: 427px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 60px;
+        font-family: 'Poppins';
+        color: #1C2323;
+    }
+
+    &__text {
+        margin-top: 50px;
+        width: 436px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        font-family: 'Poppins';
+        color: #486958;
+    }
+}

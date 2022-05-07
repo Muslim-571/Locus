@@ -1,0 +1,29 @@
+.selector {
+    margin-top: 100px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        font-family: 'Poppins';
+        color: #58A9A5;
+    }
+
+    &__text {
+        margin-top: 5px;
+        width: 330px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: 'Poppins';
+        color: #486958;
+    }
+}
